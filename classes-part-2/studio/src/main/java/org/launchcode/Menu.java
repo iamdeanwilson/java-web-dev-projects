@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Menu {
     private Date lastUpdated;
-    private ArrayList<MenuItem> items;
+    private ArrayList<org.launchcode.MenuItem> items;
 
     public Menu(Date d, ArrayList<MenuItem> i) {
         this.lastUpdated = d;
@@ -27,6 +27,7 @@ public class Menu {
     public ArrayList<MenuItem> getItems() {
         return items;
     }
+
 }
 
 
