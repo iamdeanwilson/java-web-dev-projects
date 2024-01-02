@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public abstract class Ingredient {
     private String name;
-    private double cost;
+    private Double cost;
     private ArrayList<String> allergens;
 
-    public Ingredient(String aName, double aCost, ArrayList<String> someAllergens){
+    public Ingredient(String aName, Double aCost, ArrayList<String> someAllergens){
         name = aName;
         cost = aCost;
         allergens = someAllergens;
@@ -21,11 +21,11 @@ public abstract class Ingredient {
         this.name = name;
     }
 
-    public double getCost() {
+    public Double getCost() {
         return cost;
     }
 
-    public void setCost(double cost) {
+    public void setCost(Double cost) {
         this.cost = cost;
     }
 
