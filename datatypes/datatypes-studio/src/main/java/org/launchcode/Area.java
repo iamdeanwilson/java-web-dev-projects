@@ -19,6 +19,7 @@ public class Area {
             System.out.println("Input error. Must be a positive number. Try again.");
             input.nextLine();
         }
+        input.close();
 
 //        input = new Scanner(System.in);
 //        System.out.println("Enter a radius: ");
