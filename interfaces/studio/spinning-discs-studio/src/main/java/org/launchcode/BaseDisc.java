@@ -45,4 +45,7 @@ public abstract class BaseDisc {
         return "Data written to disc.  Remaining space = " + remainingCapacity;
     }
 
+    public String getName() {
+        return name;
+    }
 }
