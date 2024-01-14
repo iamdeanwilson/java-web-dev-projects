@@ -14,10 +14,14 @@
     <thead>
         <tr>
             <th>Name</th>
+            <th>Description</th>
+            <th>Location</th>
         </tr>
     </thead>
     <tr th:each="event : ${events}">
-        <td th:text="${event}"></td>
+        <td th:text="${event.getKey()}"></td>
+        <td th:text="${event.getValue()}"></td>
+        <td th:fragment="address">1234 5th Street</td>
     </tr>
 </table>
 
